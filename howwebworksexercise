@@ -1,0 +1,9 @@
+1. HTTP is hypertext transfer protocol. It allows a web browser to communicate with a web server so that we can fetch resources from it.
+2. A URL is an address of something on the web. 
+3. DNS stands for domain name system. It's how a host name (i.e. site.com) is translated into an IP address.
+4. A query string is part of the URL. It assigns values to certain parameters.
+4. Two HTTP verbs are GET and POST. Get requests data from a specific resource, and post sends data to a server to create or update something.
+5. An HTTP request is a request from a client to a server. It uses http protocol to do it.
+6. An HTTP response is a response from the server (i.e. sends back a website with HTML, CSS, and Javascript).
+7. An HTTP header lets the client and the server pass additional information with an HTTP request or response. 
+8. When you type a URL into a browser, your browser turns 'site.com' into 123.45.67.89 (some IP address) using DNS. Your browser makes a request to that IP address using the HTTP protocol. It asks for /some/page/html, and passes along the query string (if applicable). The server sends a response (typically HTML with a status code (200 is good)). The browser makes a DOM from that HTML and sees if it needs any other resources like HTML, CSS, JS, etc. The browser makes separate HTTP requests for those resources and receives a response from the server for each one of them.
